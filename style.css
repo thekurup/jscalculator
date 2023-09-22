@@ -1,0 +1,31 @@
+.cc{
+  width: 400px;
+  height: 600px;
+  background-color:darkslategrey;
+  margin-left: 400px;
+}
+#screen{
+  width:80%;
+  margin-left:36px;
+  height:40px;
+  margin-top:30px;
+  pointer-events: none;
+  background-color: aqua;
+}
+.b{
+  width:60px;
+  height:40px;
+  margin-top:30px;
+  margin-left: 30px;
+  background-color: whitesmoke;
+  border:1px solid blue;
+  cursor: pointer;
+  transition: background-color 0.15s;
+
+}
+.b:hover{
+  background-color:chartreuse;
+  box-shadow : 5px 5px 10px rgba(0,0,0,0.50)
+
+}
+  
